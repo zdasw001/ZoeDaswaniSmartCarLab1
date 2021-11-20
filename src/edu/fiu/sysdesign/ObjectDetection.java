@@ -6,6 +6,13 @@ public class ObjectDetection extends Sensor{
 
     String name;
     boolean isOn;
+
+
+    public ObjectDetection(){
+
+        
+    }
+
     
     public void alert(){
     

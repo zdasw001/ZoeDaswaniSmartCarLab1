@@ -7,6 +7,11 @@ public class Sensor{
 String name;
 boolean isOn;
 
+public Sensor(){
+
+
+    
+}
 public void alert(){
 
 
