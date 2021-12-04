@@ -1,32 +1,55 @@
 package edu.fiu.sysdesign;
+import edu.fiu.sysdesign.SelfCheckCapable;
+import edu.fiu.sysdesign.selfcheck;
 
-public class Car {
+public class Car implements SelfCheckCapable {
    
     String color;
     String model;
     boolean isOn;
 
 
-    public void turnOn(){
+    public void prepareForUpdate(){
 
     }
 
-    public void turnOff(){
+    public boolean readyForUpdate(){
         
-    } 
+   
+	return 0;
+		} 
 
-}
+
+	public void downloadUpdate(){
+
+
+	}
+
+	public void installUpdate(){
+
+
+	}
+
+	public boolean verifyUpdate(){
+
+		return 0;
+	}
+
+
 
 
 public static void main(String[] args) {
     
 
-Car car = new Car();
+car = new Car();
 car.runSelfCheck();
 
 
 
 }
+
+
+
 
 @Override
 		public boolean selfCheck() {
@@ -45,3 +68,10 @@ car.runSelfCheck();
 			// TODO Auto-generated method stub
 			return SelfCheckUtils.basicSelfCheckRunner(this);
 		}
+
+
+
+
+
+	
+	}

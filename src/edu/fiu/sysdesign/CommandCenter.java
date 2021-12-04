@@ -19,5 +19,19 @@ public String getComm(){
 return message;
 }
 
+public void checkFirmwareVersion(){
+
+    
+}
+
+public void downloadUpdate(){
+
+
+}
+
+public void newFirmwareVersion(){
+
+    
+}
 
 }
